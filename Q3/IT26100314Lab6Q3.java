@@ -40,6 +40,6 @@ public class IT26100314Lab6Q3 {
             System.out.println("No positive numbers were entered.");
         }
 
-        input.close();
+        
     }
 }
