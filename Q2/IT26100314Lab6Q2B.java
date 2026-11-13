@@ -25,6 +25,6 @@ public class IT26100314Lab6Q2B {
             System.out.print(numbers[i] + " ");
         }
 
-        input.close();
+        
     }
 }
