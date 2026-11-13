@@ -35,6 +35,6 @@ public class IT26100314Lab6Q2C {
         System.out.println("Sum of the numbers: " + sum);
         System.out.println("Average of the numbers: " + average);
 
-        input.close();
+        
     }
 }
