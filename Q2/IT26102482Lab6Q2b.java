@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class IT26102482Lab6Q2b
+{
+	public static void main(String[]args)
+	{
+		Scanner input = new Scanner(System.in);
+		
+		int[] numbers = new int[10];
+        int count = 0;
+		
+		System.out.println("Please Enter 10 numbers");
+		
+		
+        while (count < 10) {
+            System.out.print("Enter number " + (count + 1) + ": ");
+            numbers[count] = input.nextInt();
+            count++;
+        }
+
+        System.out.println("The numbers you entered are:");
+
+        count = 0;
+
+        while (count < 10) {
+            System.out.print(numbers[count] + " ");
+            count++;
+        }
+
+        input.close();
+    }
+}
+		
+		
+		
